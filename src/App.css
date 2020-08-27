@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.html,body{
+  height: 100%;
+  margin: 0;
+} 
+
+
+.icons-rwapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.h3{
+  font-size: 3rem;
+}
+
+.p{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.firest{
+  background-color: darkgrey;
+  color: white;
+}
+
+.second{
+  background-color: rgb(231, 220, 220);
+}
+
+.third{
+  background-color: rgb(192, 71, 71);
+}
+
+.cards-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card{
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* height: 200px; */
+  width: 120px;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0 1px 3px #282c34;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.card:hover{
+  box-shadow: 0 14px 3px #282c34;
+}
+
+.img-wrapper{
+  width: 110px;
+  height: 90px;
+  text-align: center;
+  padding: 5px;
+}
+
+.image{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.skill-title-wrapper{
+  padding: 5px;
+  height: 100px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.h4{
+  margin: 0;
+  font-size: 20px;
+}
+.navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}

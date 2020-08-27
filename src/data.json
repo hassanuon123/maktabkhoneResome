@@ -1,0 +1,71 @@
+{
+    "title": "Hello I am Hassan-Moradi-Fard",
+    "subtitle": "Full Stack Develloper | Blogger ",
+    "links": {
+        "github": "https://github.com/hassanuon123/maktabkhoneResome",
+        "nugetpackage": "https://www.nuget.org/packages/clientcode/"
+    },
+    "sections": [
+        {
+            "title": "About",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "*My Name is Hassan-Moradi-Fard"
+                },
+                {
+                    "type": "p",
+                    "content": "*I am from Lorestan province and Khorramabad city, but I live in Tehran"
+                },
+                {
+                    "type": "p",
+                    "content": "*I have a computer engineering (software) from Nahavand University in Hamadan province"
+                },
+                {
+                    "type": "p",
+                    "content": "*I work for a company, a software company, and I am a programmer there."
+                },
+                {
+                    "type": "p",
+                    "content": "*I have worked hard to reach this point in my life, and it will continue to do so until I reach my main goal And I believe that no effort will be in vain"
+                }
+            ]
+        },
+        {
+            "title": "skils",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/react.png",
+                        "title": "React"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/JavaScript.png",
+                        "title": "JavaScript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/html.png",
+                        "title": "html"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "images/css.png",
+                        "title": "css"
+                    }
+                }
+            ]
+        }
+    ],
+    "icons": {
+        "down": "images/down.png"
+    }
+}
